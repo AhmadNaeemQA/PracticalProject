@@ -1,6 +1,6 @@
 package com.example.demo.Services;
 
-import java.util.Date;
+
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -37,5 +37,13 @@ public class ItemServices {
 		else {
 			return ("Record not found");
 		}
+	}
+	
+	public List<Item> readByIncompletion() {
+		return repo.findByIncomplete();
+	}
+	
+	public Item readByID(int id) {
+		return repo.findByItemID(id);
 	}
 }

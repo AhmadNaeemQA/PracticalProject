@@ -28,6 +28,11 @@ public class ItemController {
 		return service.readAll();
 	}
 	
+	@GetMapping("/readByID/{id}")
+	public Item readByID (@PathVariable(value="id") int itemID){
+		return service.readByID(itemID);
+	}
+	
 	@GetMapping("/addItem/{itemID}/{title}/{description}/{dueBy}/{complete}")
 	public void addItem(@PathVariable(value="itemID") int itemID,
 			@PathVariable(value="title") String title,
@@ -41,7 +46,12 @@ public class ItemController {
 	
 	@GetMapping("/delet/{itemID")
 	public String deleteItem(@PathVariable(value="itemID") int itemID) {
-		return (service.delete(itemID));
+		return service.delete(itemID);
+	}
+	
+	@GetMapping("readByIncompled")
+	public List <Item> readByIncompleted() {
+		return service.readByIncompletion();
 	}
 
 }
