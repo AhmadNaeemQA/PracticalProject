@@ -16,18 +16,27 @@
                 <!-- Navbar content -->
             </nav>
         <center>
-            <h1>WELCOME TO YOUR TO DO LIST</h1><br>
-            <button class="btn btn-primary" id="getALL" onclick="readAll()">Get all Sales</button> 
-            <br> <br>
-            <input type="text" id="input1" />
-            <button class="btn btn-danger" onclick="deleteSale()">Delete a Sale by ID</button>
-            <br><br>
-
-
-        <br>
-        <br>
-        <div id="todos"></div>
-        <div id="delete"></div>
+            <br>
+            <h1>ADD TASK</h1><br>
+            <form style="padding-right: 100px; padding-left: 100px;">
+                <div class="form-group">
+                    <label for="inputTitle">Title</label>
+                    <input type="text" class="form-control" id="inputTitle">
+                </div>
+                <div class="form-group">
+                    <label for="inputDescription">Description</label>
+                    <textarea type="text" rows = "7" class="form-control" id="inputDescription">Enter details here </textarea>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputDueDate">To be completed by:</label>
+                        <input type="date" class="form-control" id="inputDueDate">
+                    </div>
+                    <div class="form-group col-md-6" style="padding-top: 30px;">
+                        <button type="submit" class="btn btn-primary">Register</button>
+                    </div>
+                </div>
+              </form>
         </center>
             <script src="functions.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>  

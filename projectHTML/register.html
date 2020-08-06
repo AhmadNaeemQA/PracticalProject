@@ -12,24 +12,35 @@
                 <!-- Navbar content -->
             </nav>
         <center>
-            <h1>LOGIN</h1><br><br>
-            <form style="padding-left: 200px; padding-right: 200px;">
-                <div class="form-group">
-                  <label for="inputUsername">Username</label>
-                  <input type="text" class="form-control" id="inputUsername">
+            <br>
+            <h1>REGISTER</h1><br>
+            <form style="padding-right: 100px; padding-left: 100px;">
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputUsername">Username</label>
+                    <input type="text" class="form-control" id="inputUsername">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputPassword">Password</label>
+                    <input type="password" class="form-control" id="inputPassword">
+                  </div>
                 </div>
                 <div class="form-group">
-                  <label for="inputPassword">Password</label>
-                  <input type="password" class="form-control" id="inputPassword">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" placeholder="Jhon.Smith@hotmail.com">
                 </div>
-                <button type="submit" class="btn btn-primary">Log In</button>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label for="inputCity">First Name</label>
+                    <input type="text" class="form-control" id="inputFirstName">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label for="inputZip">Surname</label>
+                    <input type="text" class="form-control" id="inputSurname">
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Register</button>
               </form>
-
-
-        <br>
-        <br>
-        <div id="todos"></div>
-        <div id="delete"></div>
         </center>
             <script src="functions.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>  
