@@ -5,6 +5,7 @@ import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.servlet.view.RedirectView;
 
 import com.example.demo.Model.User;
 import com.example.demo.Repositories.UserRepository;
@@ -29,13 +30,35 @@ public class UserServices {
 		}
 	}
 	
-	public void create(String username, String password, String email, String firstName, String surname) {
+	public String create(String username, String password, String email, String firstName, String surname) {
+		List <User> allUsers= repo.findAll();
+		for (int i = 0; i < allUsers.size(); i++) {
+			if (allUsers.get(i).getUsername().equals(username)) {
+				return ("User already exist");
+			}
+		}
 		User user = new User();
 		user.setUsername(username);
-		user.setPassword(password);
+		user.setPassword(password);	
 		user.setEmail(email);
 		user.setFirstName(firstName);
 		user.setSurname(surname);
 		repo.save(user);
+		return ("User created");
+	}
+
+	public String authUser(String username, String password) {
+		List <User> allUsers= repo.findAll();
+		for (int i = 0; i < allUsers.size(); i++) {
+			if (allUsers.get(i).getUsername().equals(username)) {
+				if (allUsers.get(i).getPassword().equals(password)){
+					return ("Succesful");
+				}
+				else {
+					return ("Fail");
+				}
+			}
+		}
+		return ("Fail");
 	}
 }

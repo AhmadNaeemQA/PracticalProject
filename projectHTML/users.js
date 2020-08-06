@@ -11,8 +11,7 @@ function addUser(){
     console.log(email);
     console.log(firstName);
     console.log(surname);
-    window.location = ('homepage.html')
-    //window.location = ('http://localhost:8003/createUser/'+ username + '/' + password + '/' + email + '/' + firstName + '/' + surname);
+    window.location.assign('http://localhost:8030/user/createUser/'+ username + '/' + password + '/' + email + '/' + firstName + '/' + surname);
 }
 
 // Logs in user after user presses submit on log in page
@@ -21,12 +20,59 @@ function authUser(){
     var password = document.getElementById('inputPassword').value;
     console.log(username);
     console.log(password);
-    //window.location = ('http://localhost:8003/authUser/'+ username + '/' + password)
+    fetch('http://localhost:8030/user/authUser/'+ username + '/' + password)
+    .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.text().then(function(data) {
+          if (data == "succesful"){
+              window.location('homepage.html');
+          }
+        console.log(data);
+        alert(data);
+      });
+    }
+    )
+    .catch(function(err) {
+        console.log('Fetch Error :-S', err);
+    });
 }
 
 function updateUser(){
     var email = document.getElementById('inputEmail').value;
     var firstName = document.getElementById('inputFirstName').value;
     var surname = document.getElementById('inputSurname').value;
-    window.location = ('http://localhost:8003/updateUser/'+ userID + '/' + email + '/' + firstName + '/' + surname);
+    window.location('http://localhost:8030/updateUser/'+ userID + '/' + email + '/' + firstName + '/' + surname);
 }
+
+function deleteUser(){
+    window.location.assign()
+}
+
+
+// Code to call a method in spring boot and get return as response.text() or other format u set
+// fetch('http://localhost:8030/user/authUser/username1/password2')
+//   .then(
+//     function(response) {
+//       if (response.status !== 200) {
+//         console.log('Looks like there was a problem. Status Code: ' +
+//           response.status);
+//         return;
+//       }
+
+//       // Examine the text in the response
+//       response.text().then(function(data) {
+//         console.log(data);
+//         alert(data);
+//       });
+//     }
+//   )
+//   .catch(function(err) {
+//     console.log('Fetch Error :-S', err);
+//   });
