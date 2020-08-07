@@ -61,5 +61,10 @@ public class UserController {
 			@PathVariable(value="surname") String surname) {
 		return (service.updateUser(username, email, firstname, surname));
 	}
+	
+	@GetMapping("/deleteUser/{username}")
+	public String deleteUser(@PathVariable(value="username") String username) {
+		return service.deleteUser(username);
+	}
 
 }
