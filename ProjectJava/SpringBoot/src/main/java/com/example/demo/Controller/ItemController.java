@@ -34,13 +34,14 @@ public class ItemController {
 	
 	// localhost:8030/item/addItem/user4/go to work/leave early and go work/18-12-2020/true
 	@GetMapping("/addItem/{username}/{title}/{description}/{dueBy}/{complete}")
-	public void addItem(@PathVariable(value="username") String username,
+	public String addItem(@PathVariable(value="username") String username,
 			@PathVariable(value="title") String title,
 			@PathVariable(value="description") String description,
 			@PathVariable(value="dueBy") String dueBy,
 			@PathVariable(value="complete") Boolean complete) {
 		
 		service.create(username, title, description, dueBy, complete);
+		return ("Task Created");
 		
 	}
 	

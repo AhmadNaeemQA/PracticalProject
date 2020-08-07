@@ -12,7 +12,7 @@
                 <a class="navbar-brand" href="addTask.html" >Add a Task</a>
                 <a class="navbar-brand" href="search.html" >Search for Task</a>
                 <a class="navbar-brand" href="updateUser.html" >Update Personal Details</a>
-                <a class="navbar-brand" href="index.html" >Log Out</a>
+                <a class="navbar-brand" onclick="logOut()" href="index.html" >Log Out</a>
                 <!-- Navbar content -->
             </nav>
             <center>
@@ -34,8 +34,12 @@
                       </div>
                     </div>
                     <button type="submit" class="btn btn-primary" onclick="updateUser()">Update</button>
+                    <br><br>
+                    <button type="submit" class="btn btn-danger" onclick="deleteUser()">Delete Account</button>
                   </div>
             </center>
+
+            <script src="users.js"></script>
             <script src="users.js"></script>
             <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>  
             <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
