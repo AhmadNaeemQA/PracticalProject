@@ -1,6 +1,5 @@
 package com.example.demo.Model;
 
-import java.util.Date;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -12,6 +11,7 @@ public class Item {
 	@Id
 	@GeneratedValue
 	private int itemID;
+	private String username;
 	private String title;
 	private String description;
 	private String dueBy;
@@ -22,9 +22,19 @@ public class Item {
 	public void setItemID(int itemID) {
 		this.itemID = itemID;
 	}
+	
+	public void setUsernaem(String username) {
+		this.username = username;
+	}
+	
 	public String getTitle() {
 		return title;
 	}
+	
+	public String getUsername() {
+		return username;
+	}
+	
 	public void setTitle(String title) {
 		this.title = title;
 	}
