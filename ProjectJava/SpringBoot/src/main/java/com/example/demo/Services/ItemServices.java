@@ -4,7 +4,6 @@ package com.example.demo.Services;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Service;
 
 import com.example.demo.Model.Item;
@@ -16,13 +15,13 @@ public class ItemServices {
 	@Autowired
 	ItemRepository repo;
 
-	public List<Item> readAll(){
-		return repo.findAll();
+	public List<Item> readAll(String username){
+		return repo.findAllByUsername(username);
 	}
 	
-	public void create(int itemID, String title, String description, String dueBy, Boolean complete) {
+	public void create(String username, String title, String description, String dueBy, Boolean complete) {
 		Item I = new Item();
-		I.setItemID(itemID);
+		I.setUsername(username);
 		I.setTitle(title);
 		I.setDescription(description);
 		I.setDueBy(dueBy);
@@ -30,21 +29,31 @@ public class ItemServices {
 		repo.save(I);
 	}
 	
-	public String delete(int itemID) {
-		if (repo.existsById(itemID)){
+	public String delete(String username, int itemID) {
+		if (repo.findByItemID(itemID).getUsername().equals(username)) {
 			repo.deleteById(itemID);
-			return ("Record Deleted");
+			return ("Deleted Successfully");
 		}
 		else {
-			return ("Record not found");
+			return ("Task not found");
 		}
 	}
 	
-	public List<Item> readByIncompletion() {
-		return repo.findByIncomplete();
+	public List<Item> readByIncompletion(String username) {
+		return repo.findByIncomplete(username);
 	}
 	
 	public Item readByID(int id) {
 		return repo.findByItemID(id);
+	}
+	
+	public String update(String username, int itemId, String title, String description, String dueBy, Boolean complete) {
+		if (repo.existsById(itemId)){
+			if (repo.findByItemID(itemId).getUsername().equals(username)) {
+				repo.updateItem(itemId, title, description, dueBy, complete);
+				return ("Updated");
+			}
+		}
+		return ("Update Failed");
 	}
 }

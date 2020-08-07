@@ -23,7 +23,7 @@ public class Item {
 		this.itemID = itemID;
 	}
 	
-	public void setUsernaem(String username) {
+	public void setUsername(String username) {
 		this.username = username;
 	}
 	
