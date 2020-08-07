@@ -38,4 +38,10 @@ public class UserServices {
 		user.setSurname(surname);
 		repo.save(user);
 	}
+	
+	public String deleteUser(String username) {
+		repo.deleteUserItems(username);
+		repo.deleteByUsername(username);
+		return ("User deleted");
+	}
 }
