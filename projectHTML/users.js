@@ -95,7 +95,32 @@ function updateUser(){
 }
 
 function deleteUser(){
+  fetch('http://localhost:8030/user/deleteUser/'+ sessionStorage.getItem('userName'))
+  .then(
+  function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+        response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.text().then(function(data) {
+        console.log(data);
+        alert(data);
+        sessionStorage.removeItem('username');
+        window.location.href = ('http://127.0.0.1:5500/index.html');
+      });
+    }
+    )
+    .catch(function(err) {
+      console.log('Fetch Error :-S', err);
+    });
     window.location.assign()
+}
+
+function logOut(){
+  sessionStorage.removeItem('username');
 }
 
 
