@@ -1076,3 +1076,263 @@ java.lang.InterruptedException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-06 17:31:50.107
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LwsdNUtX => OK
+!SESSION 2020-08-07 09:10:14.219 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ahmadnaeem/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ahmadnaeem/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-08-07 09:10:21.589
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-08-07 09:10:21.589
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-08-07 09:10:22.665
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-07 09:10:22.904
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.eclipse.jface 2 0 2020-08-07 09:10:24.108
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-07 09:10:24.109
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6e149395,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@19bbb216,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:32.287
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:32.289
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@27015621[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=628)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:32.293
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:32.344
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-08-07 09:10:35.987
+!MESSAGE An internal error occurred during: "Repository registry initialization".
+!STACK 0
+java.lang.NumberFormatException: For input string: "3.gen"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at org.apache.lucene.index.SegmentInfos.generationFromSegmentsFileName(SegmentInfos.java:175)
+	at org.apache.lucene.index.SegmentInfos.getCurrentSegmentGeneration(SegmentInfos.java:111)
+	at org.apache.lucene.index.SegmentInfos.getCurrentSegmentGeneration(SegmentInfos.java:130)
+	at org.apache.lucene.index.IndexReader.indexExists(IndexReader.java:613)
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:189)
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173)
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:963)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:930)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:876)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:165)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:238)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.241
+!MESSAGE Boot LS startup time from start to initialized: 6934ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.327
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IMJnXKQDisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.335
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.337
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.339
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.344
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.345
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.346
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.IMJnXKQD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.347
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.367
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.369
+!MESSAGE buffering callback sts4.classpath.IMJnXKQD SpringBoot false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.370
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.375
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.377
+!MESSAGE buffering callback sts4.classpath.IMJnXKQD SalesProject false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.378
+!MESSAGE executing callback sts4.classpath.IMJnXKQD 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:10:39.519
+!MESSAGE executing callback sts4.classpath.IMJnXKQD SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-08-07 09:12:55.433
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:21.472
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IMJnXKQD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:21.474
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.IMJnXKQD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:21.475
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:21.476
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.IMJnXKQD => OK
+!SESSION 2020-08-07 09:54:25.427 -----------------------------------------------
+eclipse.buildId=4.7.1.202007271558-RELEASE
+java.version=9.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_GB
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ahmadnaeem/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/ahmadnaeem/.eclipse_keyring
+
+!ENTRY org.eclipse.ui 2 0 2020-08-07 09:54:34.663
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2020-08-07 09:54:34.663
+!MESSAGE Defining a key binding with no key sequence has no effect: plug-in='org.springframework.ide.eclipse.boot.wizard', id='org.springframework.ide.eclipse.boot.wizard.addStarersSwitchHandler'
+
+!ENTRY org.eclipse.core.net 1 0 2020-08-07 09:54:35.881
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-08-07 09:54:36.158
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.eclipse.jface 2 0 2020-08-07 09:54:37.323
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-08-07 09:54:37.323
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@74a991cf,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6097f225,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:45.346
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:45.348
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@712a5de4[org.springframework.tooling.boot.ls:1.20.0.202007271426(id=628)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:45.352
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:45.394
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-08-07 09:54:48.943
+!MESSAGE An internal error occurred during: "Repository registry initialization".
+!STACK 0
+java.lang.NumberFormatException: For input string: "3.gen"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.base/java.lang.Long.parseLong(Long.java:692)
+	at org.apache.lucene.index.SegmentInfos.generationFromSegmentsFileName(SegmentInfos.java:175)
+	at org.apache.lucene.index.SegmentInfos.getCurrentSegmentGeneration(SegmentInfos.java:111)
+	at org.apache.lucene.index.SegmentInfos.getCurrentSegmentGeneration(SegmentInfos.java:130)
+	at org.apache.lucene.index.IndexReader.indexExists(IndexReader.java:613)
+	at org.apache.maven.index.context.DefaultIndexingContext.prepareIndex(DefaultIndexingContext.java:189)
+	at org.apache.maven.index.context.DefaultIndexingContext.<init>(DefaultIndexingContext.java:173)
+	at org.apache.maven.index.DefaultNexusIndexer.addIndexingContextForced(DefaultNexusIndexer.java:160)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.createIndexingContext(NexusIndexManager.java:963)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.setIndexDetails(NexusIndexManager.java:930)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.repositoryAdded(NexusIndexManager.java:876)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.addRepository(RepositoryRegistry.java:165)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistry.updateRegistry(RepositoryRegistry.java:238)
+	at org.eclipse.m2e.core.internal.repository.RepositoryRegistryUpdateJob.run(RepositoryRegistryUpdateJob.java:49)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.147
+!MESSAGE Boot LS startup time from start to initialized: 5782ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.308
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yoMsELlPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.311
+!MESSAGE Creating project sorter...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.313
+!MESSAGE Creating project sorter... DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.316
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.320
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.321
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.322
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.yoMsELlP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.322
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.331
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.333
+!MESSAGE buffering callback sts4.classpath.yoMsELlP SpringBoot false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.334
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.338
+!MESSAGE classpath=92 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.340
+!MESSAGE buffering callback sts4.classpath.yoMsELlP SalesProject false 92
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.340
+!MESSAGE executing callback sts4.classpath.yoMsELlP 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-08-07 09:54:51.487
+!MESSAGE executing callback sts4.classpath.yoMsELlP SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2020-08-07 09:55:06.350
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)

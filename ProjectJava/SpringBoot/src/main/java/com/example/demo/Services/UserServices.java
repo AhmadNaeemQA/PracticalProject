@@ -24,10 +24,15 @@ public class UserServices {
 		return repo.findAll();
 	}
 	
-	public void updateUser(int id, String email, String firstname, String surname) {
-		if (repo.existsById(id)){
-			repo.updateUser(id, email, firstname, surname);
+	public String updateUser(String username, String email, String firstname, String surname) {
+		List <User> allUsers= repo.findAll();
+		for (int i = 0; i < allUsers.size(); i++) {
+			if (allUsers.get(i).getUsername().equals(username)) {
+				repo.updateUser(username, email, firstname, surname);
+				return ("Successfully Updated");
+			}
 		}
+		return ("Error: User not found");
 	}
 	
 	public String create(String username, String password, String email, String firstName, String surname) {

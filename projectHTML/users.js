@@ -11,7 +11,30 @@ function addUser(){
     console.log(email);
     console.log(firstName);
     console.log(surname);
-    window.location.assign('http://localhost:8030/user/createUser/'+ username + '/' + password + '/' + email + '/' + firstName + '/' + surname);
+    fetch('http://localhost:8030/user/createUser/' + username + '/' + password + '/' + email + '/ '+ firstName + '/' +surname)
+    .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+          response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.text().then(function(data) {
+        if (data == "User created"){
+          sessionStorage.setItem('userName', username);
+          console.log(sessionStorage.getItem('userName'));
+          window.location.href = ('http://127.0.0.1:5500/homepage.html');
+        }
+        console.log(data);
+        alert(data);
+      });
+    }
+  )
+  .catch(function(err) {
+    console.log('Fetch Error :-S', err);
+  });
 }
 
 // Logs in user after user presses submit on log in page
@@ -31,9 +54,11 @@ function authUser(){
 
       // Examine the text in the response
       response.text().then(function(data) {
-          if (data == "succesful"){
-              window.location('homepage.html');
-          }
+        if (data == "Succesful"){
+          sessionStorage.setItem('userName', username);
+          console.log(sessionStorage.getItem('userName'));
+          window.location.href = ('http://127.0.0.1:5500/homepage.html');
+        }
         console.log(data);
         alert(data);
       });
@@ -48,7 +73,25 @@ function updateUser(){
     var email = document.getElementById('inputEmail').value;
     var firstName = document.getElementById('inputFirstName').value;
     var surname = document.getElementById('inputSurname').value;
-    window.location('http://localhost:8030/updateUser/'+ userID + '/' + email + '/' + firstName + '/' + surname);
+    fetch('http://localhost:8030/user/updateUser/'+ sessionStorage.getItem('userName') + '/' + email + '/' + firstName + '/' + surname)
+    .then(
+    function(response) {
+      if (response.status !== 200) {
+        console.log('Looks like there was a problem. Status Code: ' +
+        response.status);
+        return;
+      }
+
+      // Examine the text in the response
+      response.text().then(function(data) {
+        console.log(data);
+        alert(data);
+      });
+    }
+    )
+    .catch(function(err) {
+      console.log('Fetch Error :-S', err);
+    });
 }
 
 function deleteUser(){

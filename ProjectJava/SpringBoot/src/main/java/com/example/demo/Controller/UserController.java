@@ -54,13 +54,12 @@ public class UserController {
 	}
 	
 	// localhost:8030/user/updateUser/2/email3/firstname3/surname3
-	@GetMapping("/updateUser/{userID}/{email}/{firstname}/{surname}")
-	public void updateUser(@PathVariable(value="userID") int id,
+	@GetMapping("/updateUser/{username}/{email}/{firstname}/{surname}")
+	public String updateUser(@PathVariable(value="username") String username,
 			@PathVariable(value="email") String email,
 			@PathVariable(value="firstname") String firstname,
 			@PathVariable(value="surname") String surname) {
-		
-		service.updateUser(id, email, firstname, surname);
+		return (service.updateUser(username, email, firstname, surname));
 	}
 
 }
