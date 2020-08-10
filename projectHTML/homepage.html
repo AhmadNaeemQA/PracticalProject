@@ -10,7 +10,6 @@
             <nav class="navbar navbar-dark bg-dark">
                 <a class="navbar-brand" href="homepage.html">Main Page</a>
                 <a class="navbar-brand" href="addTask.html" >Add a Task</a>
-                <a class="navbar-brand" href="search.html" >Search for Task</a>
                 <a class="navbar-brand" href="updateUser.html" >Update Personal Details</a>
                 <a class="navbar-brand" onclick="logOut()" href="index.html" >Log Out</a>
                 <!-- Navbar content -->
@@ -18,10 +17,15 @@
         <center>
             <h1>WELCOME TO YOUR TO DO LIST</h1><br>
         <br>
-        <br>
+        <button style="width: 180px;" class="btn btn-primary" onclick="location.href = 'homepage.html';">Show All</button>
+        <button style="width: 180px;" class="btn btn-primary" onclick="location.href = 'homepage2.html';">Show incompleted</button>
+        <br><br>
+        ALL TASK:
+        <br><br>
         <div id="todos"></div>
         <div id="delete"></div>
         <input type="text" id="input1" />
+        <button class="btn btn-primary" onclick="completeItem()">Mark Task as Complete</button>
         <button class="btn btn-danger" onclick="deleteItem()">Delete a Task by ID</button>
         </center>
             <script src="items.js"></script>

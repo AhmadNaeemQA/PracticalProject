@@ -20,7 +20,7 @@ public interface ItemRepository extends JpaRepository <Item, Integer>{
 	
 	@Modifying
 	@Transactional
-	@Query(value="SELECT * FROM item WHERE username = :username AND complete = False", nativeQuery=true)
+	@Query(value="SELECT * FROM item WHERE username = :username AND complete = false", nativeQuery=true)
 	public List<Item> findByIncomplete(@Param("username") String username);
 	
 	@Modifying
@@ -33,6 +33,9 @@ public interface ItemRepository extends JpaRepository <Item, Integer>{
 	@Query(value="UPDATE item SET title = :title, description = :description, due_by = :dueBy, complete = :complete WHERE itemid = :itemId", nativeQuery=true)
 	public void updateItem(@Param("itemId") int itemId ,@Param("title") String title, @Param("description") String description, @Param("dueBy") String dueBy, @Param("complete") Boolean complete);
 	
-	
+	@Modifying
+	@Transactional
+	@Query(value="UPDATE item SET complete = True  WHERE username = :username AND itemid = :itemId ;", nativeQuery=true)
+	public void markCompleted(@Param("username") String username, @Param("itemId") int itemId);
 
 }

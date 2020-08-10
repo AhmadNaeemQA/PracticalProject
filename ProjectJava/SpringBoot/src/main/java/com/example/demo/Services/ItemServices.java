@@ -56,4 +56,9 @@ public class ItemServices {
 		}
 		return ("Update Failed");
 	}
+	
+	public String markCompleted(String username, int itemID) {
+		repo.markCompleted(username, itemID);
+		return ("successful");
+	}
 }

@@ -65,5 +65,11 @@ public class ItemController {
 			@PathVariable(value="complete") Boolean complete) {
 		return service.update(username, itemID, title, description, dueBy, complete);
 	}
+	
+	@GetMapping("/markCompleted/{username}/{itemID}")
+	public String markCompleted(@PathVariable(value="username") String username, 
+			@PathVariable(value="itemID") int itemID) {
+		return service.markCompleted(username, itemID);
+	}
 
 }
