@@ -50,6 +50,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/ahmadnaeem/Documents/Work/QA Consulting/ims-starting-point"/>
+			<item value="/Users/ahmadnaeem/Documents/Work/QA Consulting/Automated-Testing/Automated-Testing"/>
+			<item value="/Users/ahmadnaeem/Documents/Work/QA Consulting/Automated-Testing/cucumberDemo"/>
 			<item value="/Users/ahmadnaeem/Documents/Work/QA Consulting/Software-HTML/PokeProjectTeam2"/>
 			<item value="/Users/ahmadnaeem/Documents/Work/QA Consulting/Software-HTML/springApp/SalesProject"/>
 			<item value="/Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot"/>

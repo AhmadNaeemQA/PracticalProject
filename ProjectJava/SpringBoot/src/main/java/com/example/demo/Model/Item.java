@@ -16,12 +16,7 @@ public class Item {
 	private String description;
 	private String dueBy;
 	private Boolean complete;
-	public int getItemID() {
-		return itemID;
-	}
-	public void setItemID(int itemID) {
-		this.itemID = itemID;
-	}
+
 	
 	public void setUsername(String username) {
 		this.username = username;

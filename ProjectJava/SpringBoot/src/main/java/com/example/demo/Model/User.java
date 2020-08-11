@@ -15,12 +15,7 @@ public class User {
 	private String email;
 	private String firstName;
 	private String surname;
-	public int getId() {
-		return id;
-	}
-	public void setId(int id) {
-		this.id = id;
-	}
+
 	public String getUsername() {
 		return username;
 	}

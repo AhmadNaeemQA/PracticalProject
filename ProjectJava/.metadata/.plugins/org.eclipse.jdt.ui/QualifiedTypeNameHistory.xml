@@ -3,7 +3,6 @@
     <fullyQualifiedTypeName name="com.example.demo.Repositories.UserRepository"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Optional"/>
-    <fullyQualifiedTypeName name="com.example.demo.Model.User"/>
     <fullyQualifiedTypeName name="org.springframework.data.repository.query.Param"/>
     <fullyQualifiedTypeName name="com.example.demo.Services.UserServices"/>
     <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
@@ -14,4 +13,12 @@
     <fullyQualifiedTypeName name="org.springframework.web.servlet.view.RedirectView"/>
     <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.CrossOrigin"/>
     <fullyQualifiedTypeName name="org.springframework.data.jpa.repository.Modifying"/>
+    <fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+    <fullyQualifiedTypeName name="org.mockito.junit.MockitoJUnitRunner"/>
+    <fullyQualifiedTypeName name="com.example.demo.Model.Item"/>
+    <fullyQualifiedTypeName name="org.mockito.Mock"/>
+    <fullyQualifiedTypeName name="org.aspectj.lang.annotation.Before"/>
+    <fullyQualifiedTypeName name="org.junit.Before"/>
+    <fullyQualifiedTypeName name="org.junit.Test"/>
+    <fullyQualifiedTypeName name="com.example.demo.Model.User"/>
 </qualifiedTypeNameHistroy>
