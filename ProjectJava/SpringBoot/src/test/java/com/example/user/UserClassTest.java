@@ -1,9 +1,8 @@
-package come.exampe.user;
+package com.example.user;
 
-import static org.junit.Assert.assertEquals;
-
+import static org.junit.Assert.*;
 import org.junit.Test;
-
+import static org.junit.Assert.assertEquals;
 import com.example.demo.Model.User;
 
 public class UserClassTest {

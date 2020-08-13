@@ -1,15 +1,11 @@
-package com.example.demo.itemTest;
+package com.example.item;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.junit.MockitoJUnitRunner;
 
 import com.example.demo.Model.Item;
 
-
-@RunWith(MockitoJUnitRunner.class)
 public class ItemClassTest {
 	
 

@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Model{User.java[User" modifiers="1" timestamp="1597161084000"/>
+    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Model{Item.java[Item" modifiers="1" timestamp="1597160326000"/>
+    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Services{ItemServices.java[ItemServices" modifiers="1" timestamp="1597075863000"/>
+</typeInfoHistroy>
