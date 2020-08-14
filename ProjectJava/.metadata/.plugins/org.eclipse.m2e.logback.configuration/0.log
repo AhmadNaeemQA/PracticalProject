@@ -316,3 +316,555 @@
 2020-08-13 17:31:15,760 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2020-08-13 17:31:15,764 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-08-13 17:31:15,764 [Worker-19: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:09:54,801 [Worker-7: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-08-14 09:10:02,945 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:10:02,986 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 09:10:03,038 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:10:03,043 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:10:03,043 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:11:25,178 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @112402ms to org.eclipse.jetty.util.log.Slf4jLog
+2020-08-14 09:11:25,474 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.29.v20200521; built: 2020-05-27T11:26:53.365Z; git: 77c232aed8a45c818fd27232278d9f95a021095e; jvm 9.0.1+11
+2020-08-14 09:11:25,511 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2020-08-14 09:11:25,511 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2020-08-14 09:11:25,514 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+2020-08-14 09:11:25,574 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@209311ee{/help,null,AVAILABLE}
+2020-08-14 09:11:25,597 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6c41a4ee{HTTP/1.1, (http/1.1)}{127.0.0.1:58284}
+2020-08-14 09:11:25,597 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @112825ms
+2020-08-14 09:11:25,598 [Start Help Server] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 660000ms
+2020-08-14 09:43:19,348 [Worker-28: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:43:19,407 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:43:19,410 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:43:19,410 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:43:19,413 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:43:19,413 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:45:10,792 [Worker-26: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:45:10,828 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:45:10,831 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 09:45:10,836 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:45:10,840 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:45:10,840 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:45:35,232 [Worker-24: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:45:35,237 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:45:35,238 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 09:45:35,240 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:45:35,244 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:45:35,244 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:53:47,296 [Worker-31: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:53:47,304 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:53:47,307 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 09:53:47,310 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:53:47,313 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:53:47,314 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:54:06,565 [Worker-24: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:54:06,570 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:54:06,571 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 09:54:06,574 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:54:06,578 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:54:06,578 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:54:47,820 [Worker-28: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:54:47,826 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:54:47,826 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:54:47,826 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:54:47,830 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:54:47,830 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:54:59,650 [Worker-32: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:54:59,655 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:54:59,655 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:54:59,655 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:54:59,659 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:54:59,659 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:55:19,447 [Worker-28: Launching ItemServicesTest] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:55:19,454 [Worker-28: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:55:19,455 [Worker-28: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:55:19,455 [Worker-28: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:55:19,465 [Worker-28: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:55:19,465 [Worker-28: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:57:09,176 [Worker-35: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:57:09,182 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:57:09,183 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:57:09,183 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:57:09,186 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:57:09,187 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:58:48,960 [Worker-36: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:58:48,964 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:58:48,964 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:58:48,965 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:58:48,968 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:58:48,969 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 09:59:59,428 [Worker-32: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 09:59:59,432 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:59:59,433 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:59:59,433 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 09:59:59,436 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 09:59:59,436 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:00:15,388 [Worker-32: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:00:15,392 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:00:15,393 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:00:15,393 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:00:15,395 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:00:15,395 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:00:53,514 [Worker-32: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:00:53,517 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:00:53,518 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:00:53,518 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:00:53,519 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:00:53,520 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:01:40,654 [Worker-35: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:01:40,659 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:01:40,660 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:01:40,660 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:01:40,663 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:01:40,664 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:01:44,672 [Worker-28: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:01:44,679 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:01:44,679 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:01:44,679 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:01:44,684 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:01:44,685 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:02:24,818 [Worker-38: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:02:24,826 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:02:24,827 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:02:24,827 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:02:24,833 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:02:24,833 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:02:53,280 [Worker-28: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:02:53,286 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:02:53,286 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:02:53,287 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:02:53,290 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:02:53,290 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:02:57,623 [Worker-32: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:02:57,629 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:02:57,629 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:02:57,630 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:02:57,633 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:02:57,633 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:04:09,218 [Worker-35: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:04:09,229 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:04:09,231 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:04:09,232 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:04:09,236 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:04:09,236 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:04:27,110 [Worker-38: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:04:27,113 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:04:27,113 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:04:27,113 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:04:27,115 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:04:27,115 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:04:40,596 [Worker-38: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:04:40,601 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:04:40,601 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:04:40,601 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:04:40,608 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:04:40,608 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:06:19,353 [Worker-35: Launching ItemServiceTest] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:06:19,359 [Worker-35: Launching ItemServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:06:19,360 [Worker-35: Launching ItemServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:06:19,361 [Worker-35: Launching ItemServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:06:19,364 [Worker-35: Launching ItemServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:06:19,364 [Worker-35: Launching ItemServiceTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:30:12,114 [Worker-42: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:30:12,131 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:30:12,131 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:30:12,131 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:30:12,141 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:30:12,142 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:30:56,425 [Worker-48: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:30:56,439 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:30:56,439 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:30:56,440 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:30:56,442 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:30:56,442 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:32:11,720 [Worker-49: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:32:11,728 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:32:11,728 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:32:11,728 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:32:11,731 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:32:11,731 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:36:32,934 [Worker-52: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:36:32,938 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:36:32,938 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:36:32,939 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:36:32,942 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:36:32,942 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:39:39,611 [Worker-54: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:39:39,619 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:39:39,619 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:39:39,619 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:39:39,623 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:39:39,623 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:46:09,970 [Worker-57: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:46:09,975 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:46:09,976 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:46:09,976 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:46:09,979 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:46:09,979 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:47:09,689 [Worker-58: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:47:09,693 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:47:09,693 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:47:09,693 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:47:09,695 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:47:09,695 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:50:53,400 [Worker-62: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:50:53,416 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:50:53,417 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:50:53,417 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:50:53,420 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:50:53,421 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:55:26,027 [Worker-60: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:55:26,030 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:55:26,031 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:55:26,031 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:55:26,033 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:55:26,033 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 10:56:09,013 [Worker-69: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 10:56:09,017 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:56:09,017 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:56:09,018 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 10:56:09,020 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 10:56:09,021 [Worker-69: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:15:49,365 [Worker-67: Launching ItemServicesTest] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:15:49,389 [Worker-67: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:15:49,390 [Worker-67: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:15:49,391 [Worker-67: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:15:49,394 [Worker-67: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:15:49,394 [Worker-67: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:23:15,961 [Worker-78: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:23:15,968 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:23:15,968 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:23:15,968 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:23:15,971 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:23:15,972 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:23:20,969 [Worker-79: Launching ItemServicesTest] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:23:20,974 [Worker-79: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:23:20,974 [Worker-79: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:23:20,974 [Worker-79: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:23:20,976 [Worker-79: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:23:20,977 [Worker-79: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:30:14,156 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:30:14,160 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:30:14,161 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:30:14,163 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:30:14,166 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:30:14,166 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:30:25,166 [Worker-84: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:30:25,170 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:30:25,170 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:30:25,172 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:30:25,174 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:30:25,174 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:30:33,510 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:30:33,514 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:30:33,514 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:30:33,516 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:30:33,518 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:30:33,519 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:37:32,819 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:37:32,827 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:37:32,828 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:37:32,830 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:37:32,833 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:37:32,833 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:37:41,589 [Worker-89: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:37:41,597 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:37:41,598 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:37:41,600 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:37:41,603 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:37:41,605 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:38:27,633 [Worker-89: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:38:27,636 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:38:27,637 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:38:27,639 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:38:27,643 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:38:27,644 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:38:42,883 [Worker-88: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:38:42,889 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:38:42,890 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:38:42,891 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:38:42,893 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:38:42,893 [Worker-88: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:42:08,661 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:42:08,676 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:42:08,677 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:42:08,685 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:42:08,688 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:42:08,688 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:42:31,489 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:42:31,494 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:42:31,495 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:42:31,500 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:42:31,505 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:42:31,506 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:45:25,697 [Worker-91: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:45:25,704 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:45:25,704 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:45:25,706 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:45:25,710 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:45:25,710 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:47:43,480 [Worker-89: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:47:43,489 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:47:43,490 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:47:43,493 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:47:43,498 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:47:43,498 [Worker-89: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:48:37,631 [Worker-92: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:48:37,641 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:48:37,642 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:48:37,645 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:48:37,649 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:48:37,649 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:48:41,880 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:48:41,892 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:48:41,892 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:48:41,892 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:48:41,897 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:48:41,898 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:51:05,231 [Worker-83: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:51:05,234 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:51:05,234 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:51:05,234 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:51:05,235 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:51:05,236 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:51:11,812 [Worker-92: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:51:11,817 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:51:11,817 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:51:11,818 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:51:11,820 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:51:11,820 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:51:20,632 [Worker-93: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:51:20,635 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:51:20,636 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:51:20,636 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:51:20,642 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:51:20,642 [Worker-93: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:53:18,256 [Worker-92: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:53:18,264 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:53:18,264 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:53:18,264 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:53:18,267 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:53:18,268 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:55:29,556 [Worker-92: Launching Executing install in _Users_ahmadnaeem_Documents_Work_QA Consulting_PracticalProject_ProjectJava_SpringBoot] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot
+2020-08-14 11:55:29,558 [Worker-92: Launching Executing install in _Users_ahmadnaeem_Documents_Work_QA Consulting_PracticalProject_ProjectJava_SpringBoot] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-14 11:55:40,206 [Worker-94: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:55:40,212 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:55:40,212 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:55:40,214 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:55:40,216 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:55:40,216 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:56:38,977 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-08-14 11:56:39,003 [Worker-97: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:56:40,787 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:SpringBoot:0.0.1-SNAPSHOT @ /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/pom.xml.
+2020-08-14 11:56:41,419 [Worker-97: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:56:41,706 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot/src/main/java
+2020-08-14 11:56:41,708 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/main/resources
+2020-08-14 11:56:41,708 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpringBoot/src/main/resources
+2020-08-14 11:56:41,709 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringBoot/src/test/java
+2020-08-14 11:56:42,873 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2020-08-14 11:56:44,412 [Worker-94: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:56:44,523 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:56:44,527 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 11:56:44,581 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:56:44,598 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:56:44,598 [Worker-94: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:56:51,870 [Worker-92: Launching Executing install in _Users_ahmadnaeem_Documents_Work_QA Consulting_PracticalProject_ProjectJava_SpringBoot] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot
+2020-08-14 11:56:51,872 [Worker-92: Launching Executing install in _Users_ahmadnaeem_Documents_Work_QA Consulting_PracticalProject_ProjectJava_SpringBoot] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-14 11:58:12,066 [Worker-95: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:58:12,090 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:58:12,096 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:58:12,096 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:58:12,099 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:58:12,099 [Worker-95: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:58:25,899 [Worker-100: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:58:25,905 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:58:25,905 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:58:25,906 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:58:25,909 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:58:25,909 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 11:58:33,201 [Worker-100: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 11:58:33,206 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:58:33,206 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:58:33,206 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 11:58:33,211 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 11:58:33,212 [Worker-100: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:00:48,431 [Worker-92: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:00:48,438 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:00:48,438 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:00:48,438 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:00:48,441 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:00:48,442 [Worker-92: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:02:11,953 [Worker-104: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:02:11,958 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:02:11,961 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:02:11,962 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:02:11,966 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:02:11,967 [Worker-104: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:02:37,758 [Worker-101: Launching Executing install in _Users_ahmadnaeem_Documents_Work_QA Consulting_PracticalProject_ProjectJava_SpringBoot] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot
+2020-08-14 12:02:37,758 [Worker-101: Launching Executing install in _Users_ahmadnaeem_Documents_Work_QA Consulting_PracticalProject_ProjectJava_SpringBoot] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -Ppom.xml -B install -Dstyle.color=always
+2020-08-14 12:03:35,995 [Worker-108: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:03:35,999 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:03:36,000 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 12:03:36,002 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:03:36,005 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:03:36,005 [Worker-108: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:17:09,637 [Worker-111: Launching ItemServicesTest] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:17:09,645 [Worker-111: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:17:09,645 [Worker-111: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:17:09,646 [Worker-111: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:17:09,650 [Worker-111: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:17:09,651 [Worker-111: Launching ItemServicesTest] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:19:13,167 [Worker-112: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:19:13,180 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:19:13,180 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:19:13,180 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:19:13,185 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:19:13,186 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:19:33,649 [Worker-110: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:19:33,654 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:19:33,654 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:19:33,655 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:19:33,659 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:19:33,659 [Worker-110: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:21:23,710 [Worker-112: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:21:23,714 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:21:23,715 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:21:23,715 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:21:23,717 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:21:23,717 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:21:27,075 [Worker-115: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:21:27,084 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:21:27,084 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:21:27,085 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:21:27,087 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:21:27,087 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:25:07,832 [Worker-105: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:25:07,836 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:25:07,837 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:25:07,837 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:25:07,839 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:25:07,839 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:26:19,087 [Worker-115: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:26:19,091 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:26:19,091 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:26:19,092 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:26:19,094 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:26:19,094 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:27:40,345 [Worker-105: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:27:40,347 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:27:40,348 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:27:40,348 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:27:40,349 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:27:40,350 [Worker-105: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:27:51,810 [Worker-112: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:27:51,817 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:27:51,817 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:27:51,818 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:27:51,822 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:27:51,823 [Worker-112: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:45:18,193 [Worker-115: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:45:18,208 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:45:18,208 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:45:18,209 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:45:18,211 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:45:18,212 [Worker-115: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:49:52,925 [Worker-121: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:49:52,929 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:49:52,929 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:49:52,929 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:49:52,931 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:49:52,931 [Worker-121: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:51:16,445 [Worker-119: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:51:16,449 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:51:16,449 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:51:16,450 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:51:16,452 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:51:16,453 [Worker-119: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 12:51:55,728 [Worker-122: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 12:51:55,732 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:51:55,732 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:51:55,733 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 12:51:55,735 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 12:51:55,735 [Worker-122: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 13:55:15,766 [Worker-127: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 13:55:15,793 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 13:55:15,794 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 13:55:15,794 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 13:55:15,801 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 13:55:15,801 [Worker-127: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:09:08,582 [Worker-133: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:09:08,597 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:09:08,598 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:09:08,598 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:09:08,601 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:09:08,601 [Worker-133: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:09:26,134 [Worker-132: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:09:26,138 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:09:26,139 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 14:09:26,142 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:09:26,151 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:09:26,151 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:30:47,296 [Worker-143: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:30:47,301 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:30:47,301 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:30:47,302 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:30:47,304 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:30:47,304 [Worker-143: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:35:01,475 [Worker-146: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:35:01,480 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:35:01,480 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:35:01,480 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:35:01,482 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:35:01,482 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:35:31,406 [Worker-148: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:35:31,409 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:35:31,410 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:35:31,410 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:35:31,412 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:35:31,412 [Worker-148: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:36:02,158 [Worker-147: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:36:02,162 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:36:02,162 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:36:02,162 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:36:02,167 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:36:02,167 [Worker-147: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:43:44,137 [Worker-151: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:43:44,141 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:43:44,142 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:43:44,142 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:43:44,147 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:43:44,147 [Worker-151: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:44:09,905 [Worker-152: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:44:09,927 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:44:09,927 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:44:09,927 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:44:09,929 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:44:09,930 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:44:11,312 [Worker-149: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:44:11,320 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:44:11,324 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-08-14 14:44:11,330 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:44:11,339 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:44:11,339 [Worker-149: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:45:11,423 [Worker-146: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:45:11,425 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:45:11,425 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:45:11,425 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:45:11,427 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:45:11,427 [Worker-146: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 14:58:37,797 [Worker-156: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 14:58:37,801 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:58:37,801 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:58:37,801 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 14:58:37,805 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 14:58:37,805 [Worker-156: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 15:00:47,210 [Worker-152: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 15:00:47,214 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 15:00:47,214 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 15:00:47,214 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 15:00:47,217 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 15:00:47,217 [Worker-152: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources
+2020-08-14 15:05:01,200 [Worker-164: Building] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-08-14 15:05:01,210 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 15:05:01,210 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 15:05:01,211 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-08-14 15:05:01,213 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-08-14 15:05:01,213 [Worker-164: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/ahmadnaeem/Documents/Work/QA Consulting/PracticalProject/ProjectJava/SpringBoot/src/test/resources

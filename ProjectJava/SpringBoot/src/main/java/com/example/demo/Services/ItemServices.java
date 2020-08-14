@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.demo.Model.Item;
 import com.example.demo.Repositories.ItemRepository;
+import com.example.demo.exceptions.ItemNotFoundException;
 
 @Service
 public class ItemServices {
@@ -19,7 +20,7 @@ public class ItemServices {
 		return repo.findAllByUsername(username);
 	}
 	
-	public void create(String username, String title, String description, String dueBy, Boolean complete) {
+	public String create(String username, String title, String description, String dueBy, Boolean complete) {
 		Item I = new Item();
 		I.setUsername(username);
 		I.setTitle(title);
@@ -27,10 +28,11 @@ public class ItemServices {
 		I.setDueBy(dueBy);
 		I.setComplete(complete);
 		repo.save(I);
+		return ("Task created Successfully");
 	}
 	
 	public String delete(String username, int itemID) {
-		if (repo.findByItemID(itemID).getUsername().equals(username)) {
+		if (this.readByID(itemID).getUsername().equals(username)) {
 			repo.deleteById(itemID);
 			return ("Deleted Successfully");
 		}
@@ -44,18 +46,18 @@ public class ItemServices {
 	}
 	
 	public Item readByID(int id) {
-		return repo.findByItemID(id);
+		return repo.findById(id).orElseThrow(ItemNotFoundException::new);
 	}
 	
-	public String update(String username, int itemId, String title, String description, String dueBy, Boolean complete) {
-		if (repo.existsById(itemId)){
-			if (repo.findByItemID(itemId).getUsername().equals(username)) {
-				repo.updateItem(itemId, title, description, dueBy, complete);
-				return ("Updated");
-			}
-		}
-		return ("Update Failed");
-	}
+//	public String update(String username, int itemId, String title, String description, String dueBy, Boolean complete) {
+//		if (repo.existsById(itemId)){
+//			if (repo.findByItemID(itemId).getUsername().equals(username)) {
+//				repo.updateItem(itemId, title, description, dueBy, complete);
+//				return ("Updated");
+//			}
+//		}
+//		return ("Update Failed");
+//	}
 	
 	public String markCompleted(String username, int itemID) {
 		repo.markCompleted(username, itemID);

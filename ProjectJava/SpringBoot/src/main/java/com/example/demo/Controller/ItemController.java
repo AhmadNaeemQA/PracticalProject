@@ -40,8 +40,7 @@ public class ItemController {
 			@PathVariable(value="dueBy") String dueBy,
 			@PathVariable(value="complete") Boolean complete) {
 		
-		service.create(username, title, description, dueBy, complete);
-		return ("Task Created");
+		return service.create(username, title, description, dueBy, complete);
 		
 	}
 	
@@ -56,15 +55,15 @@ public class ItemController {
 		return service.readByIncompletion(username);
 	}
 	
-	@GetMapping("/updateItem/{username}/{itemID}/{title}/{description}/{dueBy}/{complete}")
-	public String updateItem(@PathVariable(value="username") String username, 
-			@PathVariable(value="itemID") int itemID,
-			@PathVariable(value="title") String title,
-			@PathVariable(value="description") String description,
-			@PathVariable(value="dueBy") String dueBy,
-			@PathVariable(value="complete") Boolean complete) {
-		return service.update(username, itemID, title, description, dueBy, complete);
-	}
+//	@GetMapping("/updateItem/{username}/{itemID}/{title}/{description}/{dueBy}/{complete}")
+//	public String updateItem(@PathVariable(value="username") String username, 
+//			@PathVariable(value="itemID") int itemID,
+//			@PathVariable(value="title") String title,
+//			@PathVariable(value="description") String description,
+//			@PathVariable(value="dueBy") String dueBy,
+//			@PathVariable(value="complete") Boolean complete) {
+//		return service.update(username, itemID, title, description, dueBy, complete);
+//	}
 	
 	@GetMapping("/markCompleted/{username}/{itemID}")
 	public String markCompleted(@PathVariable(value="username") String username, 

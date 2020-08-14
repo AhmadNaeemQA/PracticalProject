@@ -15,8 +15,6 @@ import com.example.demo.Model.Item;
 @Repository
 public interface ItemRepository extends JpaRepository <Item, Integer>{
 	
-	// find item by product ID
-	public Item findByItemID(int itemID);
 	
 	@Modifying
 	@Transactional

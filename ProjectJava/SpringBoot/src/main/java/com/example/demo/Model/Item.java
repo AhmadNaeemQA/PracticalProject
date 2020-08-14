@@ -17,7 +17,19 @@ public class Item {
 	private String dueBy;
 	private Boolean complete;
 
+	public Item() {
+		
+	}
 	
+	public Item(String username, String title, String description, String dueBy, Boolean complete) {
+		super();
+		this.username = username;
+		this.title = title;
+		this.description = description;
+		this.dueBy = dueBy;
+		this.complete = complete;
+	}
+
 	public void setUsername(String username) {
 		this.username = username;
 	}

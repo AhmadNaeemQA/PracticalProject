@@ -12,6 +12,12 @@ public class ItemClassTest {
 	Item item = new Item();
 	
 	@Test
+	public void contrsuterTest() {
+		item = new Item("username", "title", "description" , "01-01-01", false);
+		assertNotNull(item);
+	}
+	
+	@Test
 	public void usernameTests() {
 		item.setUsername("user");
 		assertEquals("user", item.getUsername());
