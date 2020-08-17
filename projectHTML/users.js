@@ -2,12 +2,11 @@
 // Adds a user to the database after user presses submit on registration page
 function addUser(){
     var username = document.getElementById('inputUsername').value;
-    var password = document.getElementById('inputPassword').value;
+    var password = hashCode(document.getElementById('inputPassword').value);
     var email = document.getElementById('inputEmail').value;
     var firstName = document.getElementById('inputFirstName').value;
     var surname = document.getElementById('inputSurname').value;
     console.log(username);
-    console.log(password);
     console.log(email);
     console.log(firstName);
     console.log(surname);
@@ -40,7 +39,7 @@ function addUser(){
 // Logs in user after user presses submit on log in page
 function authUser(){
     var username = document.getElementById('inputUsername').value;
-    var password = document.getElementById('inputPassword').value;
+    var password = hashCode(document.getElementById('inputPassword').value);
     console.log(username);
     console.log(password);
     fetch('http://localhost:8030/user/authUser/'+ username + '/' + password)
@@ -121,6 +120,10 @@ function deleteUser(){
 
 function logOut(){
   sessionStorage.removeItem('username');
+}
+
+hashCode = function(s){
+  return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);              
 }
 
 
