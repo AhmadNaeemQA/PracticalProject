@@ -29,6 +29,14 @@ public class Item {
 		this.dueBy = dueBy;
 		this.complete = complete;
 	}
+	
+	public void setItemID(int itemID) {
+		this.itemID = itemID;
+	}
+	
+	public int getItemID() {
+		return itemID;
+	}
 
 	public void setUsername(String username) {
 		this.username = username;

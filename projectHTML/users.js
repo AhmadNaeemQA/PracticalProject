@@ -27,7 +27,6 @@ function addUser(){
           window.location.href = ('http://127.0.0.1:5500/homepage.html');
         }
         console.log(data);
-        alert(data);
       });
     }
   )
@@ -54,12 +53,15 @@ function authUser(){
       // Examine the text in the response
       response.text().then(function(data) {
         if (data == "Succesful"){
+          console.log(data);
           sessionStorage.setItem('userName', username);
           console.log(sessionStorage.getItem('userName'));
           window.location.href = ('http://127.0.0.1:5500/homepage.html');
         }
-        console.log(data);
-        alert(data);
+        else{
+          window.alert(data);
+          console.log(data);
+        }
       });
     }
     )

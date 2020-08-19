@@ -1,7 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Model{User.java[User" modifiers="1" timestamp="1597414776000"/>
-    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Model{Item.java[Item" modifiers="1" timestamp="1597414776000"/>
-    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Services{ItemServices.java[ItemServices" modifiers="1" timestamp="1597414776000"/>
-    <typeInfo handle="=SpringBoot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.example.demo.Services{UserServices.java[UserServices" modifiers="1" timestamp="1597412651000"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>
