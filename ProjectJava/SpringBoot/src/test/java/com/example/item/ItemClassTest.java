@@ -18,6 +18,12 @@ public class ItemClassTest {
 	}
 	
 	@Test
+	public void itemIDTestS() {
+		item.setItemID(1);
+		assertEquals(1, item.getItemID());
+	}
+	
+	@Test
 	public void usernameTests() {
 		item.setUsername("user");
 		assertEquals("user", item.getUsername());
