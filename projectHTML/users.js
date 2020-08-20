@@ -126,25 +126,3 @@ function logOut(){
 hashCode = function(s){
   return s.split("").reduce(function(a,b){a=((a<<5)-a)+b.charCodeAt(0);return a&a},0);              
 }
-
-
-// Code to call a method in spring boot and get return as response.text() or other format u set
-// fetch('http://localhost:8030/user/authUser/username1/password2')
-//   .then(
-//     function(response) {
-//       if (response.status !== 200) {
-//         console.log('Looks like there was a problem. Status Code: ' +
-//           response.status);
-//         return;
-//       }
-
-//       // Examine the text in the response
-//       response.text().then(function(data) {
-//         console.log(data);
-//         alert(data);
-//       });
-//     }
-//   )
-//   .catch(function(err) {
-//     console.log('Fetch Error :-S', err);
-//   });
