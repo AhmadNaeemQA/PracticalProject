@@ -100,7 +100,6 @@ function completeItem(){
       // Examine the text in the response
       response.text().then(function(data) {
         console.log(data);
-        alert(data);
         window.location.href = ('http://127.0.0.1:5500/homepage2.html');
       });
     }
@@ -124,7 +123,6 @@ function deleteItem() {
       // Examine the text in the response
       response.text().then(function(data) {
         console.log(data);
-        alert(data);
         window.location.href = ('http://127.0.0.1:5500/homepage.html');
       });
     }

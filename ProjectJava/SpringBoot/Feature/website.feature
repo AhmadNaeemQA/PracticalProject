@@ -38,52 +38,46 @@ Feature: Practical Project functionality
 	Scenario: reading a task
 		Given I am on the mainpage
 		Then I should be able to see tasks on the screen
-#		
-#
-#	Scenario: marking a task as incomplete
-#		Given I am on the mainpage
-#		And there is a task thats currently incomplete
-#		When I type the item ID in the text box
-#		And press Mark Task as Complete
-#		Then the task should be marked as complete
-#
-#	Scenario: Showing incomplete tasks
-#		Given you are on the main page
-#		When you click on show incomplete tasks
-#		Then there should be no tasks showing
-#
-#
-#	Scenario: Deleting a task using the item ID
-#		Given you are on the main page
-#		When you type in the item ID in the input box
-#		And you click on delete a task
-#		Then the task should be deleted
-#
-#	Scenario: going to update personal detail page
-#		Given you are on the main page
-#		When you click on the update personal details button on navbar
-#		Then it should take you to the update personal details page
-#	
-#	Scenario: Updating details
-#		Given you are on the update personal details page
-#		When you enter your new details
-#		And you click update
-#		Then it should update you details
-#
-#	Scenario: Logging out of account
-#		Given you are logged in and on the home page
-#		When you click on the log out button on the navbar
-#		Then it should take you to the welcome page
-#		
-#	Scenario: going to update personal detail page
-#		Given you are on the main page
-#		When you click on the update personal details button on navbar
-#		Then it should take you to the update personal details page
-#	
-#	Scenario: deleting your account
-#		Given you are on the update personal details page
-#		When you click on delete account
-#		Then it should delet your account and take you to the welcome page
+		
+	Scenario: marking a task as incomplete
+		Given I am on the mainpage
+		And there is a task thats currently incomplete
+		When I type the item ID in the text box
+		And press Mark Task as Complete
+		Then the task should be marked as complete
+
+	Scenario: Showing incomplete tasks
+		Given you are on the main page
+		When you click on show incomplete tasks
+		Then there should be no tasks showing
+
+
+	Scenario: Deleting a task using the item ID
+		Given you are on the main page
+		When you type in the item ID in the input box
+		And you click on delete a task
+		Then the task should be deleted
+
+	Scenario: going to update personal detail page
+		Given you are on the main page two
+		When you click on the update personal details button on navbar
+		Then it should take you to the update personal details page
+	
+	Scenario: Updating details
+		Given you are on the update personal details page
+		When you enter your new details
+		And you click update
+		Then it should update you details
+
+	Scenario: Logging out of account
+		Given you are on the main page two
+		When you click on the log out button on the navbar
+		Then it should take you to the welcome page
+		
+	Scenario: deleting your account
+		Given you are on the update personal details page
+		When you click on delete account
+		Then it should delete your account and take you to the welcome page
 
 
 		

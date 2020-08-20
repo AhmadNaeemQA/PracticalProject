@@ -17,7 +17,7 @@ public class RegistrationLogin {
 
 	private WebDriver driver;
 	private WebElement target;
-	private String username = ("user12535");
+	private String username = ("user64316");
 	
 	@Before
 	public void init() {

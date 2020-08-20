@@ -86,7 +86,7 @@ function updateUser(){
       // Examine the text in the response
       response.text().then(function(data) {
         console.log(data);
-        alert(data);
+        window.location.href = ('http://127.0.0.1:5500/homepage.html');
       });
     }
     )
@@ -108,7 +108,6 @@ function deleteUser(){
       // Examine the text in the response
       response.text().then(function(data) {
         console.log(data);
-        alert(data);
         sessionStorage.removeItem('username');
         window.location.href = ('http://127.0.0.1:5500/index.html');
       });
